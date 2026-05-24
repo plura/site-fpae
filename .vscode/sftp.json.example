@@ -5,7 +5,7 @@
     "port": 21,
     "username": "",
     "password": "",
-    "remotePath": "/public_html/",
+    "remotePath": "/public_html/fpae.com.pt/",
     "uploadOnSave": false,
     "useTempFile": false,
     "openSsh": false,
