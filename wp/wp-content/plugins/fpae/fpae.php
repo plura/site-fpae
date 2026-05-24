@@ -4,17 +4,17 @@
 	Description: Site specific code changes for fpae.pt
 */
 
-include_once( dirname( __FILE__ ) . "/p/init.php");
+require_once( dirname( __FILE__ ) . "/p/init.php");
 
-include_once( dirname( __FILE__ ) . "/fpae_custom_events.php");
+require_once( dirname( __FILE__ ) . "/fpae_custom_events.php");
 
-//include_once( dirname( __FILE__ ) . "/fpae_custom_initiatives.php");
+//require_once( dirname( __FILE__ ) . "/fpae_custom_initiatives.php");
 
-include_once( dirname( __FILE__ ) . "/fpae_custom_members.php");
+require_once( dirname( __FILE__ ) . "/fpae_custom_members.php");
 
-include_once( dirname( __FILE__ ) . "/fpae_custom_news.php");
+require_once( dirname( __FILE__ ) . "/fpae_custom_news.php");
 
-include_once( dirname( __FILE__ ) . "/fpae_custom_publications.php");
+require_once( dirname( __FILE__ ) . "/fpae_custom_publications.php");
 
 
 //permit excerpt for pages
