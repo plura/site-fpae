@@ -1,0 +1,19 @@
+{
+    "name": "FPAE",
+    "host": "",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "",
+    "password": "",
+    "remotePath": "/public_html/",
+    "uploadOnSave": false,
+    "useTempFile": false,
+    "openSsh": false,
+    "secure": true,
+    "secureOptions": {
+        "rejectUnauthorized": false
+    },
+    "syncOption": {
+        "delete": true
+    }
+}

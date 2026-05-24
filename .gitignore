@@ -3,16 +3,14 @@ _notes/
 error_log
 sftp-config.json
 
-# SFTP config example is safe to commit
-!sftp-config.json.example
-
 # WordPress
 wp-config.php
 wp-content/uploads/
 wp-content/cache/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/sftp.json.example
 .idea/
 *.swp
 *.swo
