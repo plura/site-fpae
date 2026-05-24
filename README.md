@@ -17,12 +17,12 @@ O deploy é feito via FTP usando a extensão [SFTP](https://marketplace.visualst
 Copiar `.vscode/sftp.json.example` para `.vscode/sftp.json` e preencher as credenciais.
 
 Dois contextos disponíveis:
-- **FPAE Theme** → mapeia `theme/` para `wp/wp-content/themes/fpae` no servidor
-- **FPAE Plugin** → mapeia `plugin/` para `wp/wp-content/plugins/fpae` no servidor
+- **FPAE Theme** → mapeia `theme/` para `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` no servidor
+- **FPAE Plugin** → mapeia `plugin/` para `/public_html/fpae.com.pt/wp/wp-content/plugins/fpae` no servidor
 
 ## Tema
 
-Tema filho de **Customizr**, alojado em `wp/wp-content/themes/fpae` no servidor.
+Tema filho de **Customizr**, alojado em `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` no servidor.
 
 ## Plugin
 
