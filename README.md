@@ -1,35 +1,35 @@
 # FPAE — Fórum Português de Administração Educacional
 
-Website institucional do FPAE, construído em WordPress.
+Institutional website for FPAE, built on WordPress.
 
-Este repositório contém apenas o tema e plugin personalizados. O WordPress core não está versionado.
+This repository contains only the custom theme and plugin. WordPress core is not versioned.
 
-## Estrutura do repositório
+## Repository structure
 
 ```
-theme/    → tema fpae (filho de Customizr)
-plugin/   → plugin fpae (custom post types e funcionalidades)
+theme/    → fpae theme (child of Customizr)
+plugin/   → fpae plugin (custom post types and features)
 ```
 
 ## Deployment
 
-O deploy é feito via FTP usando a extensão [SFTP](https://marketplace.visualstudio.com/items?itemName=Natiyszunk.sftp) do VS Code.
-Copiar `.vscode/sftp.json.example` para `.vscode/sftp.json` e preencher as credenciais.
+Deployment is done via FTP using the [SFTP](https://marketplace.visualstudio.com/items?itemName=Natiyszunk.sftp) VS Code extension.
+Copy `.vscode/sftp.json.example` to `.vscode/sftp.json` and fill in the credentials.
 
-Dois contextos disponíveis:
-- **FPAE Theme** → mapeia `theme/` para `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` no servidor
-- **FPAE Plugin** → mapeia `plugin/` para `/public_html/fpae.com.pt/wp/wp-content/plugins/fpae` no servidor
+Two contexts available:
+- **FPAE Theme** → maps `theme/` to `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` on the server
+- **FPAE Plugin** → maps `plugin/` to `/public_html/fpae.com.pt/wp/wp-content/plugins/fpae` on the server
 
-## Tema
+## Theme
 
-Tema filho de **Customizr**, alojado em `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` no servidor.
+Child theme of **Customizr**, located at `/public_html/fpae.com.pt/wp/wp-content/themes/fpae` on the server.
 
 ## Plugin
 
-Plugin personalizado com custom post types:
-- Eventos
-- Membros
-- Notícias
-- Publicações
+Custom plugin with the following post types:
+- Events
+- Members
+- News
+- Publications
 
-Inclui também suporte multilingue via qtranslate-x.
+Also includes multilingual support via qtranslate-x.
