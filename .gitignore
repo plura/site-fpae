@@ -1,0 +1,27 @@
+# Local development files
+_notes/
+error_log
+sftp-config.json
+
+# SFTP config example is safe to commit
+!sftp-config.json.example
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies
+node_modules/
