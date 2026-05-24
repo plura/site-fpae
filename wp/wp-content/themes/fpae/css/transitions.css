@@ -1,0 +1,67 @@
+
+/* fading quotes inspiration: http://stackoverflow.com/a/17976033/939693 */
+.home .banner .description p {
+    /*position:absolute;
+    left:-65px;
+    top:0;*/
+    -webkit-animation-name: homedescriptionfade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+    animation-name: homedescriptionfade;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes homedescriptionfade {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}    
+    66% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes homedescriptionfade {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}    
+    66% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.home .banner .description p:last-child {
+    animation-delay: -6.6s;
+    -webkit-animation-delay: -6.6s;
+}
+
+
+/*SOCIAL-ICONS*/
+.social-icons.pop.active,
+.social-icons-trigger.clickable.active .social-icons.pop,
+.social-icons-trigger:not(.clickable):hover .social-icons.pop   {
+    -webkit-transition-delay:   0s;
+    -moz-transition-delay:      0s;
+    -ms-transition-delay:       0s;
+    -o-transition-delay:        0s;
+    transition-delay:           0s;
+}
+
+.social-icons.pop   {
+    -webkit-transition: visibility 0s linear .4s, opacity .4s linear;
+    -moz-transition:    visibility 0s linear .4s, opacity .4s linear;
+    -ms-transition:     visibility 0s linear .4s, opacity .4s linear;
+    -o-transition:      visibility 0s linear .4s, opacity .4s linear;
+    transition:         visibility 0s linear .4s, opacity .4s linear;       
+}
+
+.social-icons.pop .icon {
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition:    top .3s ease, opacity .3s ease;
+    -ms-transition:     top .3s ease, opacity .3s ease;
+    -o-transition:      top .3s ease, opacity .3s ease;
+    transition:         top .3s ease, opacity .3s ease; 
+}
+
+.social-icons.pop .icon-wrapper:nth-child(2) .icon  { transition-delay: .1s; -webkit-transition-delay: .1s; -moz-transition-delay: .1s; }
+.social-icons.pop .icon-wrapper:nth-child(3) .icon  { transition-delay: .2s; -webkit-transition-delay: .2s; -moz-transition-delay: .2s; }
+.social-icons.pop .icon-wrapper:nth-child(4) .icon  { transition-delay: .3s; -webkit-transition-delay: .3s; -moz-transition-delay: .3s; }
+

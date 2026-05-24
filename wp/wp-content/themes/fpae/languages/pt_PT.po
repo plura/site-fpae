@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-17 22:22+0000\n"
+"PO-Revision-Date: 2016-03-17 22:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x;_e\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPathExcluded-0: pwp\n"
+
+#: includes/content-post.php:14 includes/post/publication.php:32
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue a leitura <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/modal.php:5 includes/modal.php:20
+msgid "Contact Request"
+msgstr "Pedido de Contacto"
+
+#: includes/modal.php:33 includes/page/form.php:7
+msgid "Name"
+msgstr "Nome"
+
+#: includes/modal.php:51 includes/page/form.php:25 includes/page/form.php:34
+msgid "Telephone"
+msgstr "Telefone"
+
+#: includes/modal.php:60 includes/page/form.php:49
+msgid "Message"
+msgstr "Mensagem"
+
+#: includes/modal.php:72 includes/page/form.php:37
+msgid "Add me to the MailingList"
+msgstr "Adicione-me à MailingList"
+
+#: includes/modal.php:83
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/modal.php:85 includes/page/form.php:66
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/modal.php:86
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/page/contacts.php:7
+msgid "Talk to Us!"
+msgstr "Fale Connosco!"
+
+#: includes/page/events.php:33
+msgid "Past Events"
+msgstr "Eventos Passados"
+
+#: includes/post/publication.php:22
+msgid "Download PDF version"
+msgstr "Descarregar versão PDF"
+
+#~ msgid "Initiatives"
+#~ msgstr "Iniciativas"
+
+#~ msgid "News"
+#~ msgstr "Notícias"
+
+#~ msgid "Events"
+#~ msgstr "Eventos"
+
+#~ msgid "Publications"
+#~ msgstr "Publicações"
+
+#~ msgid "Quote"
+#~ msgstr "Cotação"
+
+#~ msgid "Quote Request Form"
+#~ msgstr "Pedido de Cotações"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Deixe um comentário"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Comentário"
+
+#~ msgid "% Comments"
+#~ msgstr "% Comentários"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Pages:"
+#~ msgstr "Páginas"
+
+#~ msgid "Page %s"
+#~ msgstr "Página %s"
+
+#~ msgid "Previous page"
+#~ msgstr "Página Anterior"
+
+#~ msgid "Next page"
+#~ msgstr "Próxima Página"
+
+#~ msgid "Page"
+#~ msgstr "Página"
+
+#~ msgid "Search for:"
+#~ msgstr "Procurar por:"

@@ -1,0 +1,279 @@
+/**
+ * Theme Name: FPAE
+ * Theme URI: http://plura.pt/
+ * Author: Plura
+ * Author URI: http://plura.pt/
+ * Text Domain: fpae
+ */
+
+/* fonts */
+@import url("css/fonts.css");
+
+/* colors */
+@import url("css/colors.css");
+
+
+/**
+ *		2. MAIN
+ *			2.1 HOME
+ *			2.2 NAV
+ *		3. CONTENT | COMMON
+ *			3.1 Header
+ *			3.2 Archive
+ *			3.3 Social Icons
+ *		4. CONTENT
+ *			4.1 SOCIAL BODIES
+ *			4.2 CONTACTS
+ *			4.3 EVENTS
+ *			4.4 PUBLICATIONS
+ *		5. SIDEBAR
+ *		6. FOOTER
+ */
+
+
+
+
+ body {}
+
+ html {}
+
+
+ /*clearfix*/
+#main article .details .breadcrumbs .parents 							{  content: ""; display: table; clear: both;}
+
+
+
+ /* STRUCTURE */
+html 																	{ padding: 0; height: 100%; }
+body 																	{ height: 100%; padding: 0; }
+
+
+#main .page-header 														{ margin-top: 0; border-bottom: none;}
+
+#main article:first-child .entry-title 									{ margin-top: 0; }
+
+#main article .details .breadcrumbs .parents							{ list-style: none; padding-left: 0; margin-bottom: 0; display: inline-block; }
+#main article .details .breadcrumbs .parents .parent 					{ float: left; }
+
+#main article>.row>.thumb img 											{ width: 100%; height: auto; }
+
+
+/* dims */
+ body:not(.home) #root													{ padding-top:  105px; }
+
+#main article:not(.type-fpae_events) .details 							{ margin-bottom: 10px; }
+#main article:not(.type-fpae_events) .details .breadcrumbs:before 		{ margin-right: 5px; }
+
+
+/* MAIN */
+
+/* 2.1 MAIN: HOME*/
+.home .banner 															{ overflow: hidden; position: relative; }
+.home .banner .description 												{ text-align: right; }
+.home .banner .logo 													{ /*mix-blend-mode: lighten;*/ }
+
+.home .module .title 													{ margin-top: 0; }
+.home .module.news .list-group 											{ margin-bottom: 0; }
+.home .module .list-group-item .title 									{ display: block; text-align: center; }
+
+
+
+
+/*dims*/
+.home .banner .row														{ padding-top: 80px; }
+
+.home .modules-holder 													{ padding-top: 15px; }
+.home .module .title:before												{ margin-right: 10px; /*display: block; width: 100%;*/ }
+
+.home .banner:after {
+
+
+height: 100%;
+width: 100%;
+background-color: #000;
+display: block;
+position: absolute;
+top:0;
+left: 0;
+z-index: 0;
+}
+
+
+/* 2.2 MAIN: NAV */
+.navbar .menu-item.clickable-parent .dropdown-menu						{ display: block; opacity: 0; visibility: hidden; }
+.navbar .menu-item.clickable-parent:hover .dropdown-menu				{ opacity: 1; visibility: visible; }
+
+.navbar .navbar-brand 													{ text-indent: -9999px; width: 160px; }
+
+
+
+/* 3.1 CONTENT: header*/
+header .jumbotron  														{ position: relative; }
+
+header .jumbotron .entry-title 											{ position: absolute; bottom: 0; left: 0; width: 100%;}
+header .jumbotron .entry-title h1 										{ margin: 0; }
+
+/* dims */
+header .jumbotron 														{ height: 200px; margin-bottom: 20px; }
+header .jumbotron .entry-title h1										{ padding: 20px; }
+
+
+
+
+/* 3.2 CONTENT: ARCHIVE*/
+.archive #main .panel .panel-footer .date:before						{ margin-right: 5px; }
+
+
+
+/*CONTENT*/
+
+
+/*Content: Publications | Events*/
+.grid .grid-item .panel .panel-footer .breadcrumbs .parents 			{ margin-bottom: 0; }
+
+
+
+
+/*SOCIAL ICONS*/
+/* 	SOCIAL ICONS COMMON [POP]  
+	the usage of an icon-wrapper is b/c of vertical-centering of 
+	all icons AND individual icon's top value transition
+*/
+.social-icons.pop														{ display: table;  width: 100%; z-index: 999; top: 0; left: 0; }
+.social-icons.pop .social-icons-inner									{ display: table-cell; vertical-align: middle; }
+.social-icons.pop .social-icons-inner .icon-wrapper						{ display: inline-block; position: relative; }
+.social-icons.pop .social-icons-inner .icon-wrapper .icon 				{ position: absolute; top: 200px; left: 0; opacity: 0; }
+
+.social-icons.pop														{ visibility: hidden; opacity: 0;}
+
+.touch .parent.active .social-icons.pop,
+.no-touch .parent:hover .social-icons.pop								{ visibility: visible; opacity: 1; }
+
+.touch .parent.active .social-icons.pop .icon,
+.no-touch .parent:hover .social-icons.pop .icon 						{ top: 0; opacity: 1; }
+
+/*variations*/
+.social-icons.pop 														{ height: 100%; position: absolute;  }
+
+/*dims*/
+.social-icons.pop .icon-wrapper,
+.social-icons.pop .icon 												{ width: 60px; height: 60px;  }
+.social-icons.pop .icon-wrapper:not(:last-child) 						{ margin-right: 10px; }
+
+
+
+/* 4. CONTENT */
+
+/* 4.1 SOCIAL BODIES */
+.page-corpos-sociais .grid .grid-item:not(:first-child)					{ margin-bottom: 15px; }
+
+.page-corpos-sociais .grid .grid-item:not(:first-child) .btn			{ padding: 15px; }
+
+
+/*4.2. CONTACTS */
+.page-id-13 #main .map iframe 											{ border: none;}
+.page-id-13 #main .map iframe 											{ width: 100%; height: 400px; }
+
+
+
+/*4.3 EVENTS */
+#main .type-fpae_events .details										{ text-align: center;} 
+
+/*dims*/
+#main .type-fpae_events .details .breadcrumbs 							{ margin-bottom: 5px; padding-bottom: 5px; }
+#main .type-fpae_events .details .date .day 							{ line-height: 1em;} 									
+
+/*4.3 PUBLICATIONS */
+/*#main article:not(.type-fpae_events) .details 							{ margin-bottom: 10px; }*/
+
+
+
+/* 5. SIDEBAR */
+
+/* dims */
+#sidebar .panel .media-object											{ width: 50px; height: auto; }
+#sidebar .panel .panel-heading .panel-title:before 						{ margin-right: 5px; }
+
+
+
+
+/* 6. FOOTER*/
+footer.main 															{ width: 100%; }
+
+/*.home footer.main,
+footer.main.fixed 														{ position: absolute; bottom: 0; }*/
+
+footer.main #sitemap>ul													{ padding:0; list-style: none; }
+footer.main #sitemap>ul>li 												{ float: left; }
+footer.main #sitemap>ul ul 												{ list-style-position: inside;}
+
+
+
+/*dims*/
+footer #sitemap>ul>li:not(:last-child) 									{ margin-right: 20px; }
+footer #sitemap>ul ul 													{ padding-left: 0px; }
+
+footer.main .info a:not(:last-child)									{ margin-right: 20px;}
+footer.main a.has-icon span:before										{ margin-right: 5px;}
+
+
+
+
+
+footer.main .container:not(.minified)									{ padding-top: 20px; padding-bottom: 20px; }
+
+/* FOOTER: Social */
+footer.main .social														{ text-align: center;}
+footer.main .social-icons .icon											{ display: inline-table; text-align: center; }
+footer.main .social-icons .icon:before									{ display: table-cell; vertical-align: middle; }
+footer.main .social-icons .icon span									{ display: none; }
+
+/*dims*/
+footer.main .social-icons .icon											{ width: 40px; height: 40px;  }
+footer.main .social-icons .icon:not(:last-child)						{ margin-right: 10px; }
+
+
+/*QUOTES*/
+/* 8 - Quotes */
+button[data-target='#modal-contacts']									{ position: fixed; padding: 0;  }
+
+button[data-target='#modal-contacts'] span.icon 						{ display: inline-table; text-align: center; }
+button[data-target='#modal-contacts'] span.icon:before 					{ display: table-cell; vertical-align: middle; }
+ 
+button[data-target='#modal-contacts'] span.text							{ display: none; }
+
+/*dims*/
+button[data-target='#modal-contacts']									{ width: 60px; height: 60px; bottom: 10px; right: 10px; }
+
+
+
+
+
+
+
+@media (min-width: 768px)				{
+
+	/* 2.1 MAIN: HOME*/
+	.home .navbar .navbar-brand 										{ width: 0; height: 0; padding: 0; }
+	.home .navbar .navbar-nav>li>a 										{ padding-top: 15px; padding-bottom: 15px; }
+
+	.home .banner .row													{ padding-top: 80px; }
+	.home .banner .row>div 												{ height: 320px; }
+
+	.home #main .module.news .list-group 								{ border: none; }
+
+	.home #main .module.news .btn-holder 								{ display: table; }
+	.home #main .module.news .btn 										{ height: 100%; border: none; display: table-cell; vertical-align: middle; }
+
+	.home #main .module.news .list-group .list-group-item				{ border-right: none; border-left: none; }
+	.home #main .module.news .list-group .list-group-item:first-child	{ border-top: none;}
+	.home #main .module.news .list-group .list-group-item:last-child	{ border-bottom: none; }
+	
+	/*2.2 NAV */
+	/*.navbar .navbar-nav>li:hover>ul 									{ display: inline-block;}*/
+	body:not(.home) .navbar .navbar-brand  								{ height: 80px;}
+	body:not(.home) .navbar .navbar-nav>li>a 							{ padding-top: 30px; padding-bottom: 30px; }
+	body:not(.home) .navbar .lang-holder button,
+	body:not(.home) .navbar .navbar-form								{ margin-top: 20px; }
+
+}

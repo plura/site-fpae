@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/*OPEN SANS CONDENSED*/
+h1, h2, h3, h4,
+.navbar-nav,
+.home .list-group-item .title,
+#main article .details,
+#main .article-divider:before														{ font-family: 'Open Sans Condensed', sans-serif; font-weight: 300; }
+
+.navbar-nav>li>a																	{ font-size: 1em; }
+
+.home .module .module-title,
+.home .list-group-item .title														{ font-size: 2em; }
+
+#main .article-divider:before,
+
+#main .type-fpae_events .details .date .day 										{ font-size: 3em; }
+
+
+.home .module.news .list-group-item-heading,
+.navbar-nav>li>a,
+#main article .details,
+#main .article-divider:before														{ font-weight: 700; }
+
+.navbar-nav,
+#main .article-divider:before														{ text-transform: uppercase;}
+
+
+/*OPEN SANS*/
+body 																				{ font-family: 'Open Sans', sans-serif; font-weight: 300; }
+
+.home .banner 																		{ font-size: 1.4em; }
+
+#main article .entry-content>p 														{ font-size: 1em; }
+
+#main article .wp-caption .wp-caption-text 											{ font-weight: 700; }
+
+
+
+/* FONT ICONS */
+.home .module .module-title:before,
+.archive #main .panel .panel-footer .date:before,
+#sidebar .panel .panel-heading .panel-title:before,
+#main article:not(.type-fpae_events) .details .breadcrumbs:before,
+#sidebar .breadcrumbs .parents .parent a:before,
+
+.page-events .entry-title h1:before,
+.page-publications .entry-title h1:before,
+
+.social-icons .icon:before,
+.navbar .navbar-toggle:before,
+
+button[data-target='#modal-contacts'] span.icon:before,
+footer.main .has-icon span:before														{ font-family:'FontAwesome'; }
+
+footer.main .social a 																	{ text-decoration: none; }
+
+
+
+#sidebar .panel .panel-heading .panel-title:before										{ font-size: 1.2em; font-weight: normal; }
+.home .module.events .module-title:before,
+#sidebar .panel.events .panel-heading .panel-title:before								{ content: "\f073"; } 	/*calendar*/
+.home .module.news .module-title:before,
+#sidebar .panel.news .panel-heading .panel-title:before									{ content: "\f1ea"; } 	/*newspaper*/
+.home .module.publications .module-title:before,
+#sidebar .panel.publications .panel-heading .panel-title:before							{ content: "\f02d"; } 	/*book*/
+
+ 
+
+.archive #main .panel .panel-footer .date:before										{ content: "\f073"; } 	/*calendar*/
+
+#main article:not(.type-fpae_events) .details .breadcrumbs:before 						{ font-size: 1.2em; }
+#main article:not(.type-fpae_events) .details .breadcrumbs:before,
+#sidebar .breadcrumbs .parents .parent a:before											{ content: "\f02b"; }
+
+
+
+.navbar .navbar-toggle 																	{ font-size: 1.2em; }
+.navbar .navbar-toggle[data-target='#main-collapse']:before 							{ content: "\f039"; }
+.navbar .navbar-toggle[data-target='#search-collapse']:before 							{ content: "\f002"; }
+
+
+/*social icons*/
+.social-icons .icon:before																{ font-size: 1.4em; }
+.social-icons.pop .icon:before 															{ font-size: 2em; }
+
+.social-icons a[href*=facebook]:before		            								{ content: "\f09a"; }
+.social-icons a[href*=instagram]:before		            								{ content: "\f16d"; }
+.social-icons a[href*=linkedin]:before													{ content: "\f0e1"; }
+.social-icons a[href*=mail]:before														{ content: "\f003"; }
+.social-icons a[href*=pinterest]:before													{ content: "\f0d2"; }
+.social-icons a[href*=twitter]:before													{ content: "\f099"; }
+.social-icons a[href*=youtube]:before                                             		{ content: "\f167"; }
+.social-icons .icon.share:before														{ content: "\f064"; }
+
+
+
+footer.main .has-icon.telephone span:before 											{ content: "\f095"; } 	/*telephone*/
+footer.main .has-icon.email span:before 												{ content: "\f003"; } 	/*email [envelope]*/
+
+
+/*modal*/
+button[data-target='#modal-contacts'] span.icon:before 									{ font-size: 2em; }
+
+button[data-target='#modal-contacts'] span.icon:before 									{ content: "\f040";  } /*pencil*/
+ 
+
+
+@media (min-width: 768px) {
+
+	.home .banner 																		{ font-size: 1.7em; }
+
+}
+
+
+@media (min-width: 1200px)				{
+
+	/* OPEN SANS*/
+	.navbar-nav 																		{ font-size: 1.2em; }
+
+
+}
