@@ -1,19 +1,42 @@
-{
-    "name": "FPAE",
-    "host": "",
-    "protocol": "ftp",
-    "port": 21,
-    "username": "",
-    "password": "",
-    "remotePath": "/public_html/fpae.com.pt/",
-    "uploadOnSave": false,
-    "useTempFile": false,
-    "openSsh": false,
-    "secure": true,
-    "secureOptions": {
-        "rejectUnauthorized": false
+[
+    {
+        "name": "FPAE Theme",
+        "context": "theme",
+        "host": "",
+        "protocol": "ftp",
+        "port": 21,
+        "username": "",
+        "password": "",
+        "remotePath": "/public_html/fpae.com.pt/wp/wp-content/themes/fpae",
+        "uploadOnSave": false,
+        "useTempFile": false,
+        "openSsh": false,
+        "secure": true,
+        "secureOptions": {
+            "rejectUnauthorized": false
+        },
+        "syncOption": {
+            "delete": true
+        }
     },
-    "syncOption": {
-        "delete": true
+    {
+        "name": "FPAE Plugin",
+        "context": "plugin",
+        "host": "",
+        "protocol": "ftp",
+        "port": 21,
+        "username": "",
+        "password": "",
+        "remotePath": "/public_html/fpae.com.pt/wp/wp-content/plugins/fpae",
+        "uploadOnSave": false,
+        "useTempFile": false,
+        "openSsh": false,
+        "secure": true,
+        "secureOptions": {
+            "rejectUnauthorized": false
+        },
+        "syncOption": {
+            "delete": true
+        }
     }
-}
+]

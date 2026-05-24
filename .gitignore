@@ -1,12 +1,6 @@
-# Local development files
+# Local development
 _notes/
 error_log
-sftp-config.json
-
-# WordPress
-wp-config.php
-wp-content/uploads/
-wp-content/cache/
 
 # IDE
 .vscode/*
